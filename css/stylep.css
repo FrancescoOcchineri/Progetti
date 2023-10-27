@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #393d41;
+    font-size: 1.5rem;
+    line-height: 1.65;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.testa {
+    background-image: url(../images/banner.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-bottom: 500px;
+}
+
+.testa h1 {
+  color: #25a2c3;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.65;
+  font-size: 60px;
+  padding-top: 100px;
+}
+
+.testa p {
+padding-top: 30px;
+margin: auto;
+color: grey;
+width: 500px;
+}
+
+.testa button {
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background-color: #f04c2f;
+    border-radius: 5px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    }
+
+    .container2 {
+        margin-top: -200px;
+    }
+
+.container2 h2 {
+    color: #25a2c3;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.container2 p {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.container2 img {
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h2#ruolo {
+    color: #25a2c3;
+    padding-top: 20px;
+}
+
+.container3 {
+    background-color: #d7341a;
+    color: white;
+    padding-bottom: 500px;
+    padding-top: 50px;
+}
+
+.container3 h2 {
+   text-align: center;
+padding-top: 50px;
+font-size: 50px;
+}
+
+.container3 p {
+    text-align: center;
+}
+
+.container4 {
+    border: 1px solid grey;
+}
+
+.container4 img {
+   padding-top: 150px;
+}
+
+.container4 h4 {
+    color: #25a2c3;
+    padding-bottom: 20px;
+}
+
+.container5 {
+    border: 1px solid grey;
+}
+
+.container5 img {
+   padding-top: 150px;
+}
+
+.container5 h4 {
+    color: #25a2c3;
+    padding-bottom: 20px;
+}
+
+.container6 {
+    border: 1px solid grey;
+    margin-bottom: 40px;
+}
+
+.container6 img {
+   padding-top: 150px;
+}
+
+.container6 h4 {
+    color: #25a2c3;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #2e9aca;
+}
+
+footer h2 {
+    color: white;
+    font-size: 50px;
+    padding: 40px;
+}
+
+footer p {
+   color: #c8e7f0;
+   margin-bottom: 100px;
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
