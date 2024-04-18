@@ -1,0 +1,43 @@
+.color {
+    background: linear-gradient(0deg, rgba(23, 76, 156, 1) 39%, rgba(16, 84, 162, 1) 86%);
+}
+
+.btn-sm {
+    background-color: #174C9C !important;
+}
+
+.background {
+    background-image: url('../src/img/pexels-pixabay-53594.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Ncloud {
+    width: 35rem;
+    position: relative;
+}
+
+#TCloud {
+    position: absolute;
+    top: 13rem;
+    font-size: 9rem;
+    color: #FFD200;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    #Ncloud {
+        width: 25rem;
+    }
+
+    #TCloud {
+        top: 10rem;
+        font-size: 8rem;
+    }
+}

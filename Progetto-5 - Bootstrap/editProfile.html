@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-netflix-bg">
+    <img src="assets/img/netflix_logo.png" class="img-fluid" style="width: 100px;">
+    <div class="container d-flex flex-column mt-5">
+        <div class="row row col-7 border-bottom border-secondary">
+            <h1 class="text-white">Edit Profile</h1>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col-2 mt-4 border-bottom border-secondary">
+                <img class="img-fluid" src="assets/img/avatar.png" style="width: 150px;">
+            </div>
+            <div class="col-4 mt-4 border-bottom border-secondary">
+                <p class="text-white border border-secondary bg-secondary text-start py-1">Strive Student</p>
+                <p class="text-grey mt-5">Language:</p>
+                <div class="btn-group">
+                    <button type="button mt-0"
+                        class="btn btn-dark text-white text-start border border-end-0 border-white rounded-0 px-4">English</button>
+                    <button type="button"
+                        class="btn btn-dark border border-start-0 border-white dropdown-toggle dropdown-toggle-split rounded-0"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Italian</a></li>
+                        <li><a class="dropdown-item" href="#">Spanish</a></li>
+                        <li><a class="dropdown-item" href="#">北方话</a></li>
+                        <li>
+                    </ul>
+                </div>
+                <div class="border border-secondary mt-4"></div>
+                <h4 class="text-grey mt-4">Maturity Settings:</h4>
+                <button class="bg-profileButton text-white px-5 py-1 border-0">ALL MATURITY RATINGS</button>
+                <p class="text-grey mt-3">Show titles of all maturity ratings for this profile</p>
+                <button class="bg-netflix-bg text-secondary border-1 border-secondary fs-6 py-1 px-4">EDIT</button>
+                <div class="border border-secondary mt-4"></div>
+                <h4 class="text-grey mt-4">Autoplay Controls</h4>
+                <form>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input bg-netflix-bg rounded-0 border-profileButton p-2"
+                            id="check">
+                        <label class="form-check-label text-grey fs-6" for="check">Autoplay next episode in a series on
+                            all devices.</label>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input bg-netflix-bg rounded-0 border-profileButton p-2"
+                            id="check">
+                        <label class="form-check-label text-grey fs-6" for="check">Autoplay previews while browsing on
+                            all devices.</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <button class="save bg-grey text-black border-0 fs-6 py-1 px-4 mt-4">SAVE</button>
+        <!-- Inserito javascript per reindirizzare alla pagina index.html -->
+        <button
+            class="cancel bg-netflix-bg text-secondary border-1 border-secondary fs-6 py-1 px-4 mx-3">CANCEL</button>
+        <!-- Inserito javascript per reindirizzare alla pagina index.html -->
+        <button class="bg-netflix-bg text-secondary border-1 border-secondary fs-6 py-1 px-4">DELETE PROFILE</button>
+    </div>
+    <script src="bootstrap-5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

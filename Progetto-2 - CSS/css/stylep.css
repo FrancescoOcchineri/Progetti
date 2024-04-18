@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.5;
+    color: #25a2c3
+}
+
+h3, h4 {
+    font-size: 30px;
+}
+
+header {
+    background-color: black;
+}
+
+header img {
+    padding: 60px;
+    width: 400px;
+}
+
+.testa {
+    background-image: url(../images/banner.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-bottom: 500px;
+}
+
+h1 {
+  line-height: 1.05;
+  font-size: 60px;
+  padding: 60px 160px;
+  margin-bottom: 20px;
+}
+
+.testa p {
+    margin: auto;
+width: 550px;
+font-size: 30px;
+margin-top: -50px;
+}
+
+.testa button {
+    color: white;
+    font-size: 20px;
+    border: none;
+    background-color: #f04c2f;
+    border-radius: 5px;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    margin: 70px;
+    }
+
+.container2 {
+        margin-top: -350px;
+    }
+
+.container2 h2 {
+    color: #25a2c3;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.container2 p {
+    font-size: 30px;
+    padding: 20px 230px;
+    margin-bottom: 20px;
+}
+
+.container2 img {
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.container3 {
+    background-color: #d7341a;
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+.container3 h2 {
+    color: white;
+text-align: center;
+padding-top: 50px;
+font-size: 50px;
+font-family: 'Montserrat', sans-serif;
+margin-bottom: 70px;
+}
+
+.container3 p {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#style {
+    font-style: italic;
+    padding: 0 200px;
+}
+
+.rossi {
+    margin-top: 100px;
+}
+
+.rossi p:first-child {
+    font-size: 40px;
+}
+
+.container {
+    border: 1px solid #dee1e3;
+    margin: 90px 40px;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container h4, p {
+    padding: 10px;
+}
+
+.container p {
+    margin-bottom: 100px;
+    padding: 0 160px;
+    font-size: 30px;
+}
+
+.container h4 {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #2e9aca;
+    color: #c8e7f0;
+    padding-bottom: 40px;
+}
+
+footer h2 {
+    color: white;
+    font-size: 50px;
+    padding: 40px;
+}
+
+i {
+    color: white;
+}
+
+a {
+    padding-bottom: 60px;
+    color: #c8e7f0;
+}
+
+footer h2 {
+    padding: 60px;
+}
+
+footer p {
+        padding: 60px;
+        border-top: 1px solid #c8e7f0;
+        margin: 50px 300px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back-office</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/api.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-danger" href="home.html">GameStart <i class="bi bi-controller"></i></a>
+                <button class="navbar-toggler bg-danger" style="width: 50px;" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <a class="nav-link active text-white home" aria-current="page" href="#">Home</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container d-flex align-items-center justify-content-center">
+                <form class="row row-cols-1 g-3 needs-validation bg-dark p-5 mt-5 shadow-sm customBox was-validated"
+                    novalidate>
+                    <h1 class="text-white mb-4 fw-bold">Your product:</h1>
+                    <div class="col padd d-none">
+                        <label for="product" class="form-label mb-3">Game Id:</label>
+                        <input type="text" class="form-control controllo mb-2" id="product-id-input"
+                            placeholder="Enter Game ID" required>
+                    </div>
+                    <div class="col padd">
+                        <label for="product" class="form-label mb-3">Game Name:</label>
+                        <input type="text" class="form-control controllo mb-2" id="name" placeholder="Diablo IV"
+                            required minlength="2">
+                    </div>
+                    <div class="col padd">
+                        <label for="product" class="form-label mb-3">Game Category:</label>
+                        <input type="text" class="form-control controllo mb-2" id="category"
+                            placeholder="Open-world RPG" required minlength="3" required>
+                    </div>
+                    <div class="col padd">
+                        <label for="product" class="form-label mb-3">Game Brand:</label>
+                        <select class="form-select mb-2" aria-label="Default select example">
+                            <option class="bg-dark text-white" selected>CD Project</option>
+                            <option class="bg-dark text-white">BioWare</option>
+                            <option class="bg-dark text-white">Bethesda Game Studios</option>
+                            <option class="bg-dark text-white">Square Enix</option>
+                    </div>
+                    </select>
+                    <div class="col padd">
+                        <label for="product" class="form-label mt-3 mb-3">Game ImageURL:</label>
+                        <input type="url" class="form-control controllo" id="img" placeholder="https://example.com.jpg"
+                            pattern="https?://.+" required>
+                    </div>
+                    <div class="col padd mt-4">
+                        <label for="exampleNumber" class="form-label">Game price:</label>
+                        <input type="number" class="form-control mt-2 controllo" id="price" placeholder="0.00€" min="1"
+                            step="any"
+                            pattern="/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g"
+                            required>
+                    </div>
+                    <div class="d-flex flex-row justify-content-end mt-3">
+                        <button type="submit" class="btn btn-primary mt-3 px-3 invia">Add</button>
+                        <button type="button" class="btn btn-warning mt-3 d-none px-3 edit">Edit</button>
+                        <button type="button" class="btn btn-danger mt-3 px-3 d-none mx-3 cancella">Delete</button>
+                        <div class="ms-auto">
+                            <button type="button" class="btn btn-secondary mt-3 px-3 mx-4 modify">Modify
+                                Products</button>
+                            <button type="reset" class="btn btn-outline-danger mt-3 px-3 fw-bold reset">Reset</button>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-end mt-3 border-bottom border-danger">
+                        <button type="button" class="btn btn-secondary d-none return mx-3 mt-3 mb-4">Return to
+                            edit</button>
+                        <button type="button" class="btn btn-light mt-3 px-3 back mb-4">Back to Home</button>
+                    </div>
+                    <h4 class="text-danger mt-4">Product in stock:</h4>
+                    <ul class="productInfo mt-3">
+                    </ul>
+                </form>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
