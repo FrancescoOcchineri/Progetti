@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="p-5 text-center bg-image" style="
-      background-image: url('https://img.freepik.com/free-psd/fitness-items-background_23-2150154416.jpg?w=1800&t=st=1710860265~exp=1710860865~hmac=33026a9ef564884ee8a3a373a77fc5f5a1e736f774dfa8e56339cb89ce232f6c');
+      background-image: url('https://img.freepik.com/free-vector/gradient-home-gym-with-machines_52683-55393.jpg?t=st=1713774643~exp=1713778243~hmac=5fdf6626ccb97b794c2aa11b22bd8c33322af5a528b75adcec255c268ab1abcd&w=1800');
       height: 500px;
       position: absolute;
       top: 0;
